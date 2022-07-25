@@ -1,0 +1,399 @@
+  <!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--==Title==================================-->
+<title>food order</title>
+<!--==Stylesheet=============================-->
+<link rel="stylesheet" type="text/css" href="mypg02.css"/>
+<!--==Fav-icon===============================-->
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<!--==Using-Font-Awesome=====================-->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!--==Import-Font-Family======================-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+    <!--==Navigation================================-->
+    <nav class="navigation">
+      
+        <!--right-nav-(cart-like)-->
+       <div class="right-nav">
+            <!--like----->
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <!--cart----->
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+
+        <!--menu-btn---->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------->
+        <ul class="menu">
+            <li><a href="index.html" class="active">سەرەتا</a></li>
+            <li><a href="#category">بەشەکان</a></li>
+            <li><a href="#popular-bundle-pack">پاکێجەکان</a></li>
+            <li><a href="#download-app">ئەپلیکەیشنەکەمان</a></li>
+        </ul>
+        
+          <!--logo-------->
+         <a href="index.html" class="logo">
+            <span>فوود</span>ئۆردەر
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+        <!--bg--------->
+        <img alt="bg" class="bg-1" src="logowith1.png">
+        <img alt="bg-2" class="bg-2" src="logowith1.png">
+        <img src="pizza-deliver.png" class="bg-3">
+        <!--text------->
+        <div class="search-banner-text">
+            <h1>رۆژانە داوا بکە لە</h1>
+            <strong>فوودئۆردەر</strong>
+            <!--search-box------>
+            <form action="" class="search-box">
+                <!--icon------>
+                <i class="fas fa-search"></i>
+                <!--input----->
+                <input type="text" class="search-input" placeholder="گەڕان بکە لە وێب" name="search" required>
+                <!--btn------->
+                <input type="submit" class="search-btn" value="گەڕان">
+            </form>
+        </div>
+    </section>
+    <!--search-banner-end--------------->
+    <!--==category=========================================-->
+    <section id="category">
+        <!--heading---------------->
+        <div class="category-heading">
+            <h2>بەشەکان</h2>
+            <span>هەمووی ببینە</span>
+        </div>
+        <!--box-container---------->
+        <div class="category-container">
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="piz1.png">
+                <span>پیزای ئیتاڵی</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="pez2.png">
+                <span>پیزای رۆژهەڵات</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="pez3.png">
+                <span>پیزای رۆژئاوە</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="pez4.png">
+                <span>پیزای تورکی</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="pez5.png">
+                <span>پیزای خۆماڵی</span>
+            </a>
+            <!--box---------------->
+            <a href="#" class="category-box">
+                <img alt="Fish" src="piz6.png">
+                <span>هەمەجۆر</span>
+            </a>
+           
+        </div>
+        
+    </section>
+    <!--category-end----------------------------------->
+    <!--==Products====================================-->
+    <section id="popular-product">
+        <!--heading----------->
+        <div class="product-heading">
+            <h3>بەرهەمە بڵاوەکان</h3>
+            <span>هەمووی ببینە</span>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="pizza6.png">
+                <strong>پیزای بە گۆشت</strong>
+                <span class="quantity">یەک یان زیاتر</span>
+                <span class="price">١٠٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="pizza2.png">
+                <strong>پیزای مشکل</strong>
+                <span class="quantity">یەک یان زیاتر</span>
+                <span class="price">١٢... IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                </a>
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="pizza5.png">
+                <strong>پیزای بە پەنیر</strong>
+                <span class="quantity">یەک یان زیاتر</span>
+                <span class="price">٨٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                </a>
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="burger1.png">
+                <strong>بەرگەر مشکل</strong>
+                <span class="quantity">یەک یان زیاتر</span>
+                <span class="price">٥٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                </a>
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="burger2.png">
+                <strong>بەرگەر بە پەنیر</strong>
+                <span class="quantity">یەک یان زیاتر</span>
+                <span class="price">٦٥٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                </a>
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="burger4.png">
+                <strong>بەرگەر بە گۆشتی خۆماڵی</strong>
+                <span class="quantity">یەک یان زیاتر</span>
+                <span class="price">٦٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                </a>
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-product-end--------------------->
+    <!--Popular-bundle-pack===================================-->
+    <section id="popular-bundle-pack">
+        <!--heading-------------->
+        <div class="product-heading">
+            <h3 style="color: black;">زۆرترین داواکاری</h3>
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="fff1.png">
+                <strong>خواردنی خێزانی</strong>
+                <span class="quantity">برنج و مەرەگە و ترشیات</span>
+                <span class="price">٢٠٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="fff2.png">
+                <strong>مەرەگەی سینگ</strong>
+                <span class="quantity">پەتاتە و سینگ و مەرەگە</span>
+                <span class="price">٩٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="fff3.png">
+                <strong>مریشکی سورکراو</strong>
+                <span class="quantity">مریشک و کۆمەلە بابەتی تڕ</span>
+                <span class="price">٨٥٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                <!--like-btn------->
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="pack" src="freefresh.png">
+                <strong>ژەمە خواردن</strong>
+                <span class="quantity">بەرگەر و فینگەر و پێپسی فرێش</span>
+                <span class="price">٧٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                <!--like-btn------->
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="fff5.png">
+                <strong>سادە</strong>
+                <span class="quantity">مریشکی سورکراو و برنج</span>
+                <span class="price">٤٠٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                <!--like-btn------->
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="f1f2.png">
+                <strong>خواردنی خێرا</strong>
+                <span class="quantity">فینگەر و سۆس و باڵ</span>
+                <span class="price">٣٥٠٠ IQD</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>زیادکردن
+                <!--like-btn------->
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-bundle-pack-end-------------------------------->
+
+
+    <!--==download-app====================================-->
+    <section id="download-app">
+        <!--img----------------------->
+        <div class="app-img">
+            <img alt="app" src="pizzadel.png">
+        </div>
+        <!--text---------------------->
+        <div class="download-app-text">
+            <strong>ئاپەکەمان داونلۆود بکە</strong>
+            <p>سڵاوتان لێبێ بە خێربێن بۆ وێبسایتەکەمان ئێستا تۆی ئازیز ئەتوانیت سودمەند بیت لە وێبسایتەکەمان خواردنەکەت ئۆردەر بکەی دڵنیا بن ئێمە باشترینین بۆ ئێوە  </p>
+            <!--btns------->
+            <div class="download-btns">
+                <a href="#"><img alt="" src="google.png"></a>
+                <a href="#"><img alt="" src="appstore.png"></a>
+            </div>
+        </div>
+    </section>
+    <!--download-app-section-end------------------------->
+    <!--==Footer=============================================-->
+    <footer>
+        <div class="footer-container">
+            <!--logo-container------>
+            <div class="footer-logo">
+                <a href="#"><span>ف</span>وودئۆردەر</a>
+                <!--social----->
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=100009790363645"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/ayubMM4"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ayub.mm_/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--links------------------------->
+        <div class="footer-links">
+            <strong>بەرهەمەکان</strong>
+            <ul>
+                <li><a href="#">خواردنەکان</a></li>
+                <li><a href="#">جۆرەکان</a></li>
+                <li><a href="#">هەمەجۆر</a></li>
+                <li><a href="#">بابەتە تازەکان</a></li>
+            </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+            <strong>جۆری خواردنەکان</strong>
+            <ul>
+                <li><a href="#">جۆرەکانی پیزا</a></li>
+                <li><a href="#">جۆرەکانی بەرگەر</a></li>
+                <li><a href="#">جۆرەکانی مریشک</a></li>
+                <li><a href="#">جۆرەکانی ساج</a></li>
+            </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+            <strong>پەیوەندیمان پێوە بکە</strong>
+            <ul>
+                <li><a href="#">Phone : 07503880262</a></li>
+                <li><a href="#">Email : ayubm.mohammed01@gmail.com</a></li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
